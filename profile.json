@@ -1,0 +1,207 @@
+{
+  "fullname": "Chaiwirat Thammawutikul",
+  "nickname": "Tap",
+  "birthday": "1988-04-20",
+  "headtag": "Full Stack Developer",
+  "summary": "Highly skilled Full Stack Developer with 7 years of experience in building and maintaining responsive web applications. Proficient in both front-end and back-end technologies, with a strong focus on user experience and problem-solving. Adept at collaborating with cross-functional teams and delivering high-quality solutions to meet project deadlines.",
+  "phone": "(+66)88 296 3587",
+  "email": "chaiwirat.t@gmail.com",
+  "website": "https://tap-creator.com/",
+  "location": "Prawet, Bangkok, Thailand",
+  "experience": [
+    {
+      "title": "Web Developer",
+      "company": "Freelance",
+      "date": {
+        "start": "Dec 2022",
+        "end": "present"
+      },
+      "detail": [
+        "Designed and developed web applications that meet customer requirements.",
+        "Developed the entire system within a very tight time frame.",
+        "Design a modern-looking websites that are easy to understand, with clear navigation and a smooth user experience."
+      ]
+    },
+    {
+      "title": "Senior Pre-Sales Engineer",
+      "company": "Ricoh (Thailand)",
+      "date": {
+        "start": "Aug 2019",
+        "end": "Nov 2022"
+      },
+      "detail": [
+        "Designed enterprise surveillance solutions based on the needs of the organization.",
+        "Coordinated with business partner and identify solution components for cost estimation.",
+        "Presented technical information about our products to a wide variety of customers."
+      ]
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "Ricoh (Thailand)",
+      "date": {
+        "start": "Aug 2017",
+        "end": "Jul 2019"
+      },
+      "detail": ["Designed web applications to support internal process between departments.", "Improved web functionality and performance of the existing website.", "Maintained the system and fix problems found on the website."]
+    },
+    {
+      "title": "Pre-Sales Engineer",
+      "company": "Ricoh (Thailand)",
+      "date": {
+        "start": "Apr 2014",
+        "end": "Jul 2017"
+      },
+      "detail": ["Designed CCTV solutions based on the customer requirements.", "Identified solution components for cost estimation.", "Sales support for product technical information."]
+    },
+    {
+      "title": "IT Engineer (Application Developer)",
+      "company": "Toyota Tsusho Electronics (Thailand)",
+      "date": {
+        "start": "Sep 2012",
+        "end": "Mar 2014"
+      },
+      "detail": ["Team member of internal web development under IT department.", "Responsible for UI design, data recording process and database design.", "Troubleshooting application errors."]
+    },
+    {
+      "title": "Service Knowledge Development",
+      "company": "Ricoh (Thailand)",
+      "date": {
+        "start": "Nov 2010",
+        "end": "May 2012"
+      },
+      "detail": ["Team member of internal web development under customer service department.", "Developed web application to support working process.", "On-site support for IT services at customer sites."]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Languages",
+      "list": ["HTML5, CSS3, JavaScript (ES6+), TypeScript, PHP"]
+    },
+    {
+      "category": "Front-end",
+      "list": ["React", "jQuery", "Tailwind", "Bootstrap"]
+    },
+    {
+      "category": "Back-end",
+      "list": ["Node.js", "Express.js", "Next.js"]
+    },
+    {
+      "category": "Database",
+      "list": ["MySQL", "MongoDB", "Prisma"]
+    },
+    {
+      "category": "Version Control",
+      "list": ["Git", "GitHub"]
+    },
+    {
+      "category": "Other",
+      "list": ["RESTful APIs", "Responsive Web Design"]
+    }
+  ],
+  "education": [
+    {
+      "faculty": "Computer Engineering",
+      "degree": "Bachelor Degree",
+      "institute": "King Mongkut's Institute of Technology Ladkrabang",
+      "year": { "start": "2006", "end": "2010" }
+    }
+  ],
+  "projects": [
+    {
+      "name": "Cart service at Megabangna",
+      "detail": [
+        "Designed and developed web application to embeded in the Mega Smile Rewards application.",
+        "Created a web page for administrative staff to serve customers at the counter.",
+        "There are many conditions used to check before providing cart service, such as time period, duration, number of carts remaining, availability of counter service."
+      ],
+      "technologies": ["Next.js 13.5.2", "Prisma", "MongoDB", "Ant Design", "PHP 8.2.11", "Bootstrap v5.3.2", "CentOS 7", "NGINX"],
+      "date": { "start": "Sep 2023", "end": "Oct 2023" }
+    },
+    {
+      "name": "Pacifica Group",
+      "detail": [
+        "Generate Excel and PDF files from the order file that exported from e-Commerce system.",
+        "Process order data with master data and generate output into the specific format.",
+        "Supports working with multiple brands to upload and convert the order data."
+      ],
+      "technologies": ["PHP", "MySQL", "Bootstrap", "PhpSpreadsheet", "mPDF"],
+      "date": { "start": "Oct 2023", "end": "Nov 2023" }
+    },
+    {
+      "name": "POS App",
+      "detail": ["Developed a web application that can be used with a barcode scanner.", "Able to manage product in store.", "Sales history and statistics report."],
+      "technologies": ["PHP", "MySQL", "Bootstrap"],
+      "date": { "start": "Jul 2023", "end": "Aug 2023" }
+    },
+    {
+      "name": "D-Tracking Chiang Rai",
+      "detail": [
+        "Developed web application to working with Traccar GPS Tracking System.",
+        "Created a dashboard screen to display statistics on the operation of garbage collection trucks in Chiang Rai Province.",
+        "Supports configuration of garbage collection truck properties. To be used to calculate the amount of garbage that can be collected per round."
+      ],
+      "technologies": ["PHP", "MySQL", "Bootstrap", "Chart.js", "Leaflet"],
+      "date": { "start": "Apr 2023", "end": "Jun 2023" }
+    }
+  ],
+  "courses": [
+    {
+      "name": "Express.js Crash Course",
+      "institute": "Skooldio",
+      "url": "https://www.skooldio.com/courses/expressjs-crash-course"
+    },
+    {
+      "name": "Node.js Crash Course",
+      "institute": "Skooldio",
+      "url": "https://www.skooldio.com/courses/nodejs-crash-course"
+    },
+    {
+      "name": "How to Become a Better Programmer",
+      "institute": "Skooldio",
+      "url": "https://www.skooldio.com/courses/how-to-become-a-better-programmer"
+    },
+    {
+      "name": "Deep Neural Network Module and Workshop in OpenCV",
+      "institute": "FutureSkill",
+      "url": "https://app.futureskill.co/certificate?courseId=273&userId=56826"
+    },
+    {
+      "name": "UpSkill Python Programming",
+      "institute": "FutureSkill",
+      "url": "https://app.futureskill.co/api/certificate?courseId=43&userId=56826"
+    },
+    {
+      "name": "Develop Machine Learning Model for Object Detection with YOLOv5",
+      "institute": "College of Digital Innovation Technology - RSU",
+      "url": "https://www.dicert.co/cert/20220020002010145"
+    }
+  ],
+  "language": [
+    {
+        "name": "Thai",
+        "level": "Native Speaker"
+    },
+    {
+        "name": "English",
+        "level": "Intermediate"
+    }
+  ],
+  "interest": [
+    {
+      "title": "Deep Learning",
+      "icon": "analytics-outline"
+    },
+    {
+      "title": "Digital Marketing",
+      "icon": "magnet-outline"
+    },
+    {
+      "title": "Mobile Application",
+      "icon": "phone-portrait-outline"
+    },
+    {
+      "title": "Stock Investment",
+      "icon": "trending-up-outline"
+    }
+  ]
+}
