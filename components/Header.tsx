@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-export default function Header() {
+export default function Header(): React.ReactNode {
     return (
         <header>
             <h1>

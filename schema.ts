@@ -26,6 +26,7 @@ interface Project {
     name: string;
     detail: string[];
     technologies: string[];
+    url: string;
     date: DateRange;
 }
 

@@ -114,6 +114,7 @@
         "Created a web page for administrative staff to serve customers at the counter.",
         "There are many conditions used to check before providing cart service, such as time period, duration, number of carts remaining, availability of counter service."
       ],
+      "url": "https://prime-success.cc/mega-admin", 
       "technologies": ["Next.js 13.5.2", "Prisma", "MongoDB", "Ant Design", "PHP 8.2.11", "Bootstrap v5.3.2", "CentOS 7", "NGINX"],
       "date": { "start": "Sep 2023", "end": "Oct 2023" }
     },
@@ -125,12 +126,14 @@
         "Supports working with multiple brands to upload and convert the order data."
       ],
       "technologies": ["PHP", "MySQL", "Bootstrap", "PhpSpreadsheet", "mPDF"],
+      "url": "https://pacificaconvert.unifi-pacifica.com/pacifica/", 
       "date": { "start": "Oct 2023", "end": "Nov 2023" }
     },
     {
       "name": "POS App",
       "detail": ["Developed a web application that can be used with a barcode scanner.", "Able to manage product in store.", "Sales history and statistics report."],
       "technologies": ["PHP", "MySQL", "Bootstrap"],
+      "url": "https://codinggg.com/pos/",
       "date": { "start": "Jul 2023", "end": "Aug 2023" }
     },
     {
@@ -141,6 +144,7 @@
         "Supports configuration of garbage collection truck properties. To be used to calculate the amount of garbage that can be collected per round."
       ],
       "technologies": ["PHP", "MySQL", "Bootstrap", "Chart.js", "Leaflet"],
+      "url": "https://dtracking-research.mfu.ac.th/",
       "date": { "start": "Apr 2023", "end": "Jun 2023" }
     }
   ],

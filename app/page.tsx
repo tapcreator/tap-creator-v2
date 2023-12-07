@@ -5,23 +5,23 @@ import Image from 'next/image'
 // import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import data from '@/profile.json'
-import Profile from '@/interface'
+import Profile from '@/schema'
 // import { IonIcon } from '@ionic/react'
 // import { heart, callOutline, mailOutline, globeOutline, locationOutline } from 'ionicons/icons'
 
-function showProfile(profile: Profile): React.ReactNode {
-  return (
-    <div>
-      <h1>{profile.fullname}</h1>
-      <h2>{profile.nickname}</h2>
-    </div>
-  )
-}
+// function showProfile(profile: Profile): React.ReactNode {
+//   return (
+//     <div>
+//       <h1>{profile.fullname}</h1>
+//       <h2>{profile.nickname}</h2>
+//     </div>
+//   )
+// }
 
-const showProject = false
-const showCourses = false
+const showProject: boolean = true
+const showCourses: boolean = true
 
-export default function Home() {
+export default function Home(): React.ReactNode {
   // console.log(data);
   /* <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <Header />
@@ -140,6 +140,7 @@ export default function Home() {
                     <div key={slug} className="mt-3">
                       <p className="font-semibold">{item.name}</p>
                       <p className="text-sm">{item.date.start} - {item.date.end}</p>
+                      <p className="text-sm mt-1 text-sky-600"><a href={item.url}>{item.url}</a></p>
                       <ul className="text-sm list-disc ps-5 mt-2">
                         {
                           item.detail.map(detail_item => {
