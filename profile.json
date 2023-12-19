@@ -1,6 +1,7 @@
 {
   "fullname": "Chaiwirat Thammawutikul",
   "nickname": "Tap",
+  "photo": "https://tap-creator.com/assets/tap-photo.webp",
   "birthday": "1988-04-20",
   "headtag": "Full Stack Developer",
   "summary": "Highly skilled Full Stack Developer with 7 years of experience in building and maintaining responsive web applications. Proficient in both front-end and back-end technologies, with a strong focus on user experience and problem-solving. Adept at collaborating with cross-functional teams and delivering high-quality solutions to meet project deadlines.",
@@ -115,7 +116,8 @@
         "There are many conditions used to check before providing cart service, such as time period, duration, number of carts remaining, availability of counter service."
       ],
       "url": "https://prime-success.cc/mega-admin", 
-      "technologies": ["Next.js 13.5.2", "Prisma", "MongoDB", "Ant Design", "PHP 8.2.11", "Bootstrap v5.3.2", "CentOS 7", "NGINX"],
+      "image": "cart-service.png",
+      "technologies": ["Next.js 13.5.2", "Prisma", "MongoDB", "Ant Design", "i18next",  "PHP 8.2.11", "Bootstrap v5.3.2", "CentOS 7", "NGINX"],
       "date": { "start": "Sep 2023", "end": "Oct 2023" }
     },
     {
@@ -126,7 +128,8 @@
         "Supports working with multiple brands to upload and convert the order data."
       ],
       "technologies": ["PHP", "MySQL", "Bootstrap", "PhpSpreadsheet", "mPDF"],
-      "url": "https://pacificaconvert.unifi-pacifica.com/pacifica/", 
+      "url": "https://pacificaconvert.unifi-pacifica.com/pacifica/",
+      "image": "pacifica.png",
       "date": { "start": "Oct 2023", "end": "Nov 2023" }
     },
     {
@@ -134,6 +137,7 @@
       "detail": ["Developed a web application that can be used with a barcode scanner.", "Able to manage product in store.", "Sales history and statistics report."],
       "technologies": ["PHP", "MySQL", "Bootstrap"],
       "url": "https://codinggg.com/pos/",
+      "image": "pos-app.png",
       "date": { "start": "Jul 2023", "end": "Aug 2023" }
     },
     {
@@ -145,7 +149,32 @@
       ],
       "technologies": ["PHP", "MySQL", "Bootstrap", "Chart.js", "Leaflet"],
       "url": "https://dtracking-research.mfu.ac.th/",
+      "image": "d-tracking.png",
       "date": { "start": "Apr 2023", "end": "Jun 2023" }
+    },
+    {
+      "name": "IDIS project for LF Logistics",
+      "detail": [
+        "Extract logs from the database. Export data as a .txt file with only selected columns used (User ID, Event Date, Event Time), pulled on a weekly basis, sent via email.",
+        "Send morning notification for the number of employees who have clocked in. Sent to the LINE group and via email every day at 8:30 a.m.",
+        "Export First In/Last Out report as Excel files daily via email."
+      ],
+      "technologies": ["PHP", "MySQL", "Bootstrap", "PhpSpreadsheet", "PHPMailer"],
+      "url": "",
+      "image": "idis.png",
+      "date": { "start": "Mar 2023", "end": "Mar 2023" }
+    },
+    {
+      "name": "Boat Speed Monitoring System for Marine Department",
+      "detail": [
+        "Dashboard screen for viewing statistics at a glance.",
+        "Notification when exceeding the speed limit is detected.",
+        "Shows a list of all detected boats."
+      ],
+      "technologies": ["PHP", "MySQL", "Bootstrap", "PhpSpreadsheet", "LINE Notify", "PHPMailer"],
+      "url": "",
+      "image": "grafana-marine-department.png",
+      "date": { "start": "Aug 2022", "end": "Oct 2022" }
     }
   ],
   "courses": [

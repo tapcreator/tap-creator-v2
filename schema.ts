@@ -49,6 +49,7 @@ interface Language {
 interface Profile {
   fullname: string;
   nickname: string;
+  photo: string;
   birthday: string;
   headtag: string;
   summary: string;
